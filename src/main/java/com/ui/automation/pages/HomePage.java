@@ -11,7 +11,7 @@ public class HomePage {
 	public WebElement offers;
 	@FindBy(xpath="//a[text()=' Health & Safety']")
 	public WebElement HealthAndSafety;
- public void click_on_homepage(){
+ public void click_on_allcatagory(){
 	 allCatagory.click();
 System.out.println("Successfully clicked on All Catagory button");
 	 }
